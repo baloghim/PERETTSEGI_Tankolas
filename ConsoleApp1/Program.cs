@@ -22,6 +22,8 @@ namespace tankolas
         {
             Adat[] Tankolasok = new Adat[1000];
 
+            Console.ForegroundColor = ConsoleColor.Green;
+
             // 1. feladat
             Console.WriteLine("1. feladat");
             int TankolasokSzama = 0;
